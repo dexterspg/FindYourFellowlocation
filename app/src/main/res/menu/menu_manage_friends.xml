@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ankit.findyourfellow.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/signout"
+        android:orderInCategory="100"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_friend"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/requests"
+        android:orderInCategory="100"
+        android:title="My Requests"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/UserID"
+        android:orderInCategory="100"
+        android:title="Get User ID"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/testLocation"
+        android:orderInCategory="100"
+        android:title="Test Location"
+        app:showAsAction="never" />
+
+</menu>

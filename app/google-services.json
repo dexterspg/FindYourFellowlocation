@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007211016246",
+    "firebase_url": "https://findyourfellow.firebaseio.com",
+    "project_id": "findyourfellow",
+    "storage_bucket": "findyourfellow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007211016246:android:666030b29cec1e18",
+        "android_client_info": {
+          "package_name": "com.example.ankit.findyourfellow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007211016246-gr00eidu7rvt22au4q3dd77n775lel8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.findyourfellow",
+            "certificate_hash": "5d6690a2537a5fb5acb1c7c973183414b2d29b2f"
+          }
+        },
+        {
+          "client_id": "1007211016246-077fpsnei9vv6eskrnhmdsgr8jvkr869.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbz1D1wnCTN9HcrGDpvROzmBDqYEO8ztU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007211016246-077fpsnei9vv6eskrnhmdsgr8jvkr869.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankit.findyourfellow">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:name=".FindYourFellow"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateProfileActivity"
+            android:label="@string/title_activity_create_profile"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.MainActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".AccountActivity"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TrackFriendsActivity"
+            android:label="@string/title_activity_track_friends"
+            android:parentActivityName=".AccountActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.AccountActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".ManageFriendsActivity"
+            android:label="@string/title_activity_manage_friends"
+            android:parentActivityName=".AccountActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.AccountActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".AddFriendActivity"
+            android:label="@string/title_activity_add_friend"
+            android:parentActivityName=".ManageFriendsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.ManageFriendsActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".RequestActivity"
+            android:label="@string/title_activity_request"
+            android:parentActivityName=".ManageFriendsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.ManageFriendsActivity" />
+            >
+        </activity>
+        <activity
+            android:name=".UserIDActivity"
+            android:label="@string/title_activity_user_id"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testLocationActivity"
+            android:label="@string/title_activity_test_location"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ManageFriendsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ankit.findyourfellow.ManageFriendsActivity" />
+            >
+        </activity>
+    </application>
+
+</manifest>
